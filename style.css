@@ -1,0 +1,111 @@
+body {
+    background-color: #3c1e45;
+}
+
+h1  {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 6ch;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 60ch;
+    font-size: 4ch;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 60ch;
+    font-size: 4ch;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr {
+    width:50%;
+    height:1ch;
+    text-align:center;
+    border-radius: 100ch;
+    background-color: #492a53;
+    color: #492a53; 
+    border-color:#492a53;
+    border-width: 0ch;
+}
+
+button {
+    border-radius: 4ch;
+    border-width: 0.8ch;
+    border-color: rgb(90, 34, 97) rgb(90, 34, 97) rgb(90, 34, 97) rgb(90, 34, 97);
+    background-color: #392144;
+    transition: all 0.1s ease-in-out;
+
+    width: 15ch;
+    height: 15ch;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2ch;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button:hover{
+    background-color: #27162e;
+}
+
+
+#ButtonTest1 {
+    border-radius: 100ch;
+    border-width: 1ch;
+    border-color: rgb(90, 34, 97) rgb(90, 34, 97) rgb(90, 34, 97) rgb(90, 34, 97);
+    background-color: #392144;
+    transition: all 0.1s ease-in-out;
+
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2ch;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ButtonTest1:hover{
+    background-color: #27162e;
+    /*border-color: rgb(75, 28, 81) rgb(75, 28, 81) rgb(75, 28, 81) rgb(75, 28, 81);*/
+}
+
+.square {
+    /*width: 100%;
+    height: 10px;
+    padding-top: 3.5%;*/
+    background-color: #492a53;
+    /*display: flex;
+    flex-direction: column;*/
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    overflow-y:hidden;
+}
+
+#textdiv {
+    overflow-y: auto;
+}
