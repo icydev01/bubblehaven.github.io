@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <title>Bubble Haven</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>test</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="javascript.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:wght@400;500&family=Tilt+Neon&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <h1>Bubble Haven</h1>
+        <hr>
+        <div style="text-align: center;">
+            <h2>Welcome to the official Bubble Haven website!</h2>
+            <p>This is for the 2 Bubble Haven fans out there, so enjoy this fun little website that revolves around the series!</p>
+            
+
+            <br>
+            <h2>Games</h2>
+            <hr>
+            <button
+                onclick='openWeb("characterCreator.html")'     
+                onmouseenter='hoverSFX()'
+            >
+                <img src="imgs/BHMI.png" style="width: 10ch;height: 10ch; border-radius: 1ch;">
+                <br>
+                Character Creator
+            </button>
+
+            <button
+                onclick='openWeb("bubblyClicker.html")'    
+                onmouseenter='hoverSFX()'        
+            >
+                <img src="imgs/BHCI.png" style="width: 10ch;height: 10ch; border-radius: 1ch;">
+                <br>
+                Bubbly Clicker
+            </button>
+
+            
+            <hr>
+            <h2>All Characters</h2>
+            <div>
+                <audio src="audio/blipSelect.wav" id="selectSfx"></audio>
+                <button onclick="charLeft()" onmouseenter='hoverSFX()'>&lt</button><img src="imgs/bubbly.png" style="width: 80ch;height: 47ch;" id="characterShowcase"><button onclick="charRight()" onmouseenter='hoverSFX()'>&gt</button>
+                <h2 id="characterName">Bubbly</h2>
+            </div>
+            <hr>
+            <audio src="audio/hoverSfx.wav" id="hoverSfx"></audio>
+
+            <h1>Watch Bubble Haven!</h1>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZvagdJdyDAsBUStOuzG8YTvZYY_jnpi9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 3ch;border-width: 1ch;border-color: #9355b0;"></iframe>
+
+            <hr>
+
+            
+
+        </div>
+
+    </body>
+
+</html>

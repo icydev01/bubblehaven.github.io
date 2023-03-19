@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <title id="gameLoadName">Bubbly Clicker</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>test</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:wght@400;500&family=Tilt+Neon&display=swap" rel="stylesheet">
+    </head>
+
+    <audio src="audio/pickupCoin.wav" id="clickSfx"></audio>
+    <audio src="audio/powerUp.wav" id="powerUpSfx"></audio>
+
+
+    <div style="text-align: center;">
+        <img src="imgs/bubHappy.png" onclick="clickBubblyGame()" style="width: 60ch; height: 60ch;">
+        <h1 id="clickCount">0 Clicks</h1>
+        <h2 id="perClickCount">+1 per click</h2>
+        <hr>
+        <button onclick="addClickGain()" id="clickGainBtn">+1 per click (100 Clicks)</button>
+    </div>
+
+    <script src="bubClicker.js"></script>
+
+    <body>
+
+    </body>
+
+</html>
